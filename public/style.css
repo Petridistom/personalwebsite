@@ -116,11 +116,11 @@ body{
     width: 50vw;
   }
   .footer-link p {
-    margin-right: 25px;
+    margin-right: 20px;
     color: var(--col-03);
   }
   .darkmode .footer-link p {
-    margin-right: 25px;
+    margin-right: 20px;
     color: var(--col-03);
   }
 
