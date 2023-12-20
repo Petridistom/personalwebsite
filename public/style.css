@@ -162,6 +162,11 @@ body{
     background-color: darkgray;
     text-align: left;
   }
+  @media (max-width: 768px) {
+    .info-Dcontent{
+        text-align: right;
+      }
+  }
   .info-Description { 
     grid-area: Description;
     display: flex;
