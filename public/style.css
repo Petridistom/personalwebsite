@@ -212,9 +212,17 @@ body{
 
 @media (max-width: 768px) {
     .info-Dcontent{
-        text-align: right;
-      }
-      .info-Ccontent
+    text-align: right;
+    }
+    .info-Ccontent{
+    text-align: right;
+    }
+    .info-Scontent{
+    text-align: right;
+    }
+    .info-Zcontent{
+    text-align: right;
+    }
   }
 
 /* Title Styling */
