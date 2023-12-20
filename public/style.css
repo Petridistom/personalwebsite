@@ -123,6 +123,14 @@ body{
     margin-right: 5px;
     color: var(--col-03);
   }
+  .footer-link a:hover {
+    text-decoration: underline;
+    color: var(--col-03);
+  }
+  .darkmode .footer-link a:hover {
+    text-decoration: underline;
+    color: var(--col-03);
+  }
 
   /*Grid Layout*/
   .info-container {
