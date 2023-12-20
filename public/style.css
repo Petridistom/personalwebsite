@@ -160,7 +160,7 @@ body{
   
   .info-Dcontent{
     background-color: darkgray;
-    text-align: left;
+    text-align: right;
   }
   .info-Description { 
     grid-area: Description;
