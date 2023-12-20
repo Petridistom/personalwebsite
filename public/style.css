@@ -27,6 +27,17 @@ body{
     color: var(--col-02);
     overflow-y: scroll;
 }
+.spaceblock {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "outerspacewooOOOooOOoO";
+    height: 50px;
+}
+.pitawrap{
+    position: fixed;
+    width: 100%;
+}
 
 /* Grid Layout */
 .container {
@@ -78,14 +89,13 @@ body{
 .header-container {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
-    grid-template-rows: 1.2fr 2.2fr;
+    grid-template-rows: 1.2fr ;
     grid-auto-columns: 1fr;
     gap: 2px 2px;
     grid-auto-flow: row;
     justify-items: stretch;
     grid-template-areas:
-      "Name        Navigation"
-      ".           .         ";
+      "Name        Navigation";
   }
 
   .footer-container{
@@ -298,11 +308,6 @@ a:hover {
     color: var(--col-01);
     transition: 0s;
 }
-
-.pitawrap{
-    position: fixed;
-}
-
 
 
 
