@@ -99,11 +99,12 @@ body{
   .footer-year {
     grid-area: year;
     /* background-color: red; */
-    width: 50vw;
   }
   .footer-year p {
     margin-left: 5px;
     color: var(--col-03);
+    width: 50vw;
+
   }
   .darkmode .footer-year p {
     margin-left: 5px;
@@ -112,8 +113,7 @@ body{
   .footer-link {
     grid-area: link;
     /* background-color: blue; */
-    text-align: end;
-    width: 50vw;
+    place-self: end;
   }
   .footer-link p {
     margin-right: 5px;
