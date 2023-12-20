@@ -77,7 +77,7 @@ body{
     justify-content: center;
     display: flex;
     text-align: right;
-    background-color: green;
+    /* background-color: green; */
 }
 
   .Masonry {
@@ -159,14 +159,10 @@ body{
   }
   
   .info-Dcontent{
-    background-color: darkgray;
+    /* background-color: darkgray; */
     text-align: left;
   }
-  @media (max-width: 768px) {
-    .info-Dcontent{
-        text-align: right;
-      }
-  }
+
   .info-Description { 
     grid-area: Description;
     display: flex;
@@ -213,7 +209,13 @@ body{
     justify-content: space-between;
     height: 3vh;
 }
-  
+
+@media (max-width: 768px) {
+    .info-Dcontent{
+        text-align: right;
+      }
+      .info-Ccontent
+  }
 
 /* Title Styling */
 .textlogolink{
