@@ -77,7 +77,7 @@ body{
     justify-content: center;
     display: flex;
     text-align: right;
-    /* background-color: green; */
+    background-color: green;
 }
 
   .Masonry {
@@ -159,7 +159,8 @@ body{
   }
   
   .info-Dcontent{
-    /* background-color: red; */
+    background-color: darkgray;
+    text-align: left;
   }
   .info-Description { 
     grid-area: Description;
