@@ -32,7 +32,8 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "outerspacewooOOOooOOoO";
-    height: 50px;
+    height: 15vh;
+    /* background-color: blue; */
 }
 .pitawrap{
     position: fixed;
@@ -144,7 +145,6 @@ body{
 
   /*Grid Layout*/
   .info-container {
-    margin-top: 100px;
     margin-left: 5px;
     display: grid;
     grid-template-columns: .18fr .6fr;
@@ -231,6 +231,7 @@ body{
     margin-left: 5px;
     color: var(--col-02);
     line-height: 0;
+    font-weight: 600;
 }
 .textlogolink:hover{
     cursor: pointer;
@@ -241,20 +242,6 @@ body{
     line-height: 0;
 }
 .textlogolink span{
-    color: var(--col-03);
-    line-height: 0;
-}
-.textlogo{
-    margin-left: 5px;
-    color: var(--col-02);
-    line-height: 0;
-}
-.darkmode .textlogo{
-    margin-left: 5px;
-    color: var(--col-01);
-    line-height: 0;
-}
-.textlogo span{
     color: var(--col-03);
     line-height: 0;
 }
