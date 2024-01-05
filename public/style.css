@@ -172,9 +172,9 @@ body{
     justify-content: space-between;
     height: 7vh;
 }
-  .info-Ccontent{
-    /* background: blue; */
-  }
+  /* .info-Ccontent{
+    background: blue;
+  } */
   .info-Contact { 
     grid-area: Contact; 
     display: flex;
@@ -184,9 +184,9 @@ body{
     height: 3vh;
 }
   
-.info-Scontent{
-    /* background-color: grey; */
-}
+/* .info-Scontent{
+    background-color: grey;
+} */
   .info-Social { 
     grid-area: Social; 
     display: flex;
@@ -197,9 +197,9 @@ body{
     height: 3vh;
 }
   
-.info-Zcontent{
-    /* background-color:lightcoral ; */
-}
+/* .info-Zcontent{
+    background-color:lightcoral ;
+} */
   .info-Ztyle { 
     grid-area: Ztyle; 
     display: flex;
