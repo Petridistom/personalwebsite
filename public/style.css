@@ -49,7 +49,7 @@ body{
     grid-template-areas:
       "Name        Navigation"
       ".           .         "
-      ".           Description"         
+      "Description .         "         
       "Masonry     Masonry   ";
   }
   
