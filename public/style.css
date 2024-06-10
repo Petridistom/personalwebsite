@@ -83,7 +83,7 @@ body{
 
   .Masonry {
     grid-area: Masonry;
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 /* Grid Layout */
