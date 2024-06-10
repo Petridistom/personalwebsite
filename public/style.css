@@ -58,14 +58,14 @@ body{
   
   .Name {
     grid-area: Name;
-    /* background-color: red; */
+    background-color: red;
 }
   
   .Navigation { 
     grid-area: Navigation;
     display: flex;
     justify-content: space-between;
-    /* background-color: orange;     */
+    background-color: orange;    
 }
 
   .Navigation ul {
@@ -78,12 +78,12 @@ body{
     justify-content: center;
     display: flex;
     text-align: right;
-    /* background-color: green; */
+    background-color: green;
 }
 
   .Masonry {
     grid-area: Masonry;
-    /* background-color: purple; */
+    background-color: purple;
 }
 
 /* Grid Layout */
@@ -109,7 +109,7 @@ body{
   }
   .footer-year {
     grid-area: year;
-    /* background-color: red; */
+    background-color: red;
   }
   .footer-year p {
     margin-left: 5px;
@@ -123,7 +123,7 @@ body{
   }
   .footer-link {
     grid-area: link;
-    /* background-color: blue; */
+    background-color: blue;
     place-self: end;
   }
   .footer-link p {
@@ -159,14 +159,14 @@ body{
   }
   
   .info-Dcontent{
-    /* background-color: darkgray; */
+    background-color: darkgray;
     text-align: left;
   }
 
   .info-Description { 
     grid-area: Description;
     display: flex;
-    /* background-color: orchid; */
+    background-color: orchid;
     text-align: right;
     text-transform: uppercase;
     justify-content: space-between;
@@ -178,7 +178,7 @@ body{
   .info-Contact { 
     grid-area: Contact; 
     display: flex;
-    /* background-color: brown; */
+    background-color: brown;
     text-align: right;
     justify-content: space-between;
     height: 3vh;
@@ -190,7 +190,7 @@ body{
   .info-Social { 
     grid-area: Social; 
     display: flex;
-    /* background-color: yellow; */
+    background-color: yellow;
     text-align: right;
     text-transform: uppercase;
     justify-content: space-between;
@@ -203,7 +203,7 @@ body{
   .info-Ztyle { 
     grid-area: Ztyle; 
     display: flex;
-    /* background-color: purple; */
+    background-color: purple;
     text-align: right;
     text-transform: uppercase;
     justify-content: space-between;
