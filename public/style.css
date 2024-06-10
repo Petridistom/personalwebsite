@@ -20,7 +20,7 @@
 }
 
 body{
-    margin: 0px;
+    /* margin: 0px; */
     background-color: var(--col-01);
     color: var(--col-02);
 }
@@ -30,8 +30,8 @@ body{
     grid-template-rows: 1fr;
     grid-template-areas: "outerspacewooOOOooOOoO";
     height: 15vh;
-    /* background-color: blue; */
 }
+
 .pitawrap{
     position: fixed;
     width: 100%;
@@ -55,19 +55,17 @@ body{
   
   .Name {
     grid-area: Name;
-    /* background-color: red; */
 }
   
   .Navigation { 
     grid-area: Navigation;
     display: flex;
     justify-content: space-between;
-    /* background-color: orange;     */
 }
 
   .Navigation ul {
-        display: flex;
-        margin: 0;
+    display: flex;
+    margin: 0;
 }
      
   .Description { 
@@ -75,13 +73,11 @@ body{
     justify-content: center;
     display: flex;
     text-align: right;
-    /* background-color: green; */
 }
 
   .Masonry {
-    grid-area: Masonry;
-    /* background-color: purple; */
-}
+
+  }
 
 /* Grid Layout */
 .header-container {
@@ -96,266 +92,221 @@ body{
       "Name        Navigation";
   }
 
-  .footer-container{
-    position: fixed;
-    bottom: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "year link";
-  }
-  .footer-year {
-    grid-area: year;
-    /* background-color: red; */
-  }
-  .footer-year p {
-    margin-left: 5px;
-    color: var(--col-03);
-    width: 50vw;
-
-  }
-  .darkmode .footer-year p {
-    margin-left: 5px;
-    color: var(--col-03);
-  }
-  .footer-link {
-    grid-area: link;
-    /* background-color: blue; */
-    place-self: end;
-  }
-  .footer-link p {
-    margin-right: 5px;
-    color: var(--col-03);
-  }
-  .darkmode .footer-link p {
-    margin-right: 5px;
-    color: var(--col-03);
-  }
-  .footer-link a:hover {
-    text-decoration: underline;
-    color: var(--col-03);
-  }
-  .darkmode .footer-link a:hover {
-    text-decoration: underline;
-    color: var(--col-03);
-  }
-
-  /*Grid Layout*/
-  .info-container {
-    margin-left: 5px;
-    display: grid;
-    grid-template-columns: .18fr .6fr;
-    grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr;
-    gap: 2px 2px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "   Description Dcontent"
-      "   Contact     Ccontent"
-      "   Social      Scontent"
-      "   Ztyle       Zcontent";
-  }
-  
-  .info-Dcontent{
-    /* background-color: darkgray; */
-    text-align: left;
-  }
-
-  .info-Description { 
-    grid-area: Description;
-    display: flex;
-    /* background-color: orchid; */
-    text-align: right;
-    text-transform: uppercase;
-    justify-content: space-between;
-    height: 7vh;
+.footer-container{
+  position: fixed;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "year link";
 }
+
+.footer-year {
+  grid-area: year;
+}
+
+.footer-year p {
+  margin-left: 5px;
+  color: var(--col-03);
+  width: 50vw;
+}
+
+.darkmode .footer-year p {
+  margin-left: 5px;
+  color: var(--col-03);
+}
+
+.footer-link {
+  grid-area: link;
+  place-self: end;
+}
+
+.footer-link p {
+  margin-right: 5px;
+  color: var(--col-03);
+}
+
+.darkmode .footer-link p {
+  margin-right: 5px;
+  color: var(--col-03);
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+  color: var(--col-03);
+}
+
+.darkmode .footer-link a:hover {
+  text-decoration: underline;
+  color: var(--col-03);
+}
+
+/*Grid Layout*/
+.info-container {
+  margin-left: 5px;
+  display: grid;
+  grid-template-columns: .18fr .6fr;
+  grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr;
+  gap: 2px 2px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "   Description Dcontent"
+    "   Contact     Ccontent"
+    "   Social      Scontent"
+    "   Ztyle       Zcontent";
+}
+  
+.info-Dcontent{
+  text-align: left;
+}
+
+.info-Description { 
+  grid-area: Description;
+  display: flex;
+  text-align: right;
+  text-transform: uppercase;
+  justify-content: space-between;
+  height: 7vh;
+}
+
   /* .info-Ccontent{
     background: blue;
   } */
-  .info-Contact { 
-    grid-area: Contact; 
-    /* display: flex;
-    background-color: brown; */
-    text-align: right;
-    justify-content: space-between;
-    height: 3vh;
+.info-Contact { 
+  grid-area: Contact; 
+  text-align: right;
+  justify-content: space-between;
+  height: 3vh;
 }
   
 /* .info-Scontent{
     background-color: grey;
 } */
-  .info-Social { 
-    grid-area: Social; 
-    /* display: flex;
-    background-color: yellow; */
-    text-align: right;
-    text-transform: uppercase;
-    justify-content: space-between;
-    height: 3vh;
+.info-Social { 
+  grid-area: Social; 
+  text-align: right;
+  text-transform: uppercase;
+  justify-content: space-between;
+  height: 3vh;
 }
   
 /* .info-Zcontent{
     background-color:lightcoral ;
 } */
   .info-Ztyle { 
-    grid-area: Ztyle; 
-    display: flex;
-    /* background-color: purple; */
-    text-align: right;
-    text-transform: uppercase;
-    justify-content: space-between;
-    height: 3vh;
+  grid-area: Ztyle; 
+  display: flex;
+  text-align: right;
+  text-transform: uppercase;
+  justify-content: space-between;
+  height: 3vh;
 }
 
 @media (max-width: 768px) {
-    .info-Dcontent{
-    text-align: right;
-    }
-    .info-Ccontent{
-    text-align: right;
-    }
-    .info-Scontent{
-    text-align: right;
-    }
-    .info-Zcontent{
-    text-align: right;
-    }
+  .info-Dcontent{
+  text-align: right;
   }
+  .info-Ccontent{
+  text-align: right;
+  }
+  .info-Scontent{
+  text-align: right;
+  }
+  .info-Zcontent{
+  text-align: right;
+  }
+}
 
 /* Title Styling */
 .textlogolink{
-    position: fixed;
-    margin-left: 5px;
-    color: var(--col-02);
-    line-height: 0;
-    font-weight: 600;
+  position: fixed;
+  margin-left: 5px;
+  color: var(--col-02);
+  line-height: 0;
+  font-weight: 600;
 }
+
 .textlogolink:hover{
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .darkmode .textlogolink{
-    margin-left: 5px;
-    color: var(--col-01);
-    line-height: 0;
+  margin-left: 5px;
+  color: var(--col-01);
+  line-height: 0;
 }
+
 .textlogolink span{
-    color: var(--col-03);
-    line-height: 0;
+  color: var(--col-03);
+  line-height: 0;
 }
 
 p{
-    color: var(--col-02);
+  color: var(--col-02);
 }
+
 .darkmode p {
-    color: var(--col-01);
+  color: var(--col-01);
 }
+
 p:hover {
-    cursor: default;
+  cursor: default;
 }
 
 .square{
-    width: 7px;
-    height: 7px;
-    border-style: solid;
-    border-color: var(--col-02);
-    border-width: 1px;
-    margin-right: 5px;
-    cursor: pointer;
-    margin-top: 8px;
+  width: 7px;
+  height: 7px;
+  border-style: solid;
+  border-color: var(--col-02);
+  border-width: 1px;
+  margin-right: 5px;
+  cursor: pointer;
+  margin-top: 8px;
 }
+
 .darkmode .square {
-    width: 7px;
-    height: 7px;
-    border-style: solid;
-    border-color: var(--col-01);
-    border-width: 1px;
-    cursor: pointer;
-    margin-top: 8px;
+  width: 7px;
+  height: 7px;
+  border-style: solid;
+  border-color: var(--col-01);
+  border-width: 1px;
+  cursor: pointer;
+  margin-top: 8px;
 }
 
 li{
-    color: var(--col-02);
-    padding-right: 5px;
-    margin-top: 8px;
+  color: var(--col-02);
+  padding-right: 5px;
+  margin-top: 8px;
 }
+
 .darkmode li{
-    color: var(--col-01);
+  color: var(--col-01);
 }
+
 li:hover{
-    color: var(--col-02);
-    padding-right: 5px;
-    /* text-decoration: underline; */
+  color: var(--col-02);
+  padding-right: 5px;
+
 }
 .darkmode li:hover{
-    color: var(--col-01);
-    /* text-decoration: underline; */
+  color: var(--col-01);
 }
 
 a {
-    color: var(--col-02);
-    height: 20px;
+  color: var(--col-02);
+  height: 20px;
 }
 .darkmode a {
-    color: var(--col-01);
+  color: var(--col-01);
 }
 a:hover {
-    text-decoration: underline;
-    color: var(--col-02);
-    transition: 0s;
+  text-decoration: underline;
+  color: var(--col-02);
+  transition: 0s;
 }
 .darkmode a:hover {
-    text-decoration: underline;
-    color: var(--col-01);
-    transition: 0s;
+  text-decoration: underline;
+  color: var(--col-01);
+  transition: 0s;
 }
-
-
-
-
-/* .buttoncontainer{
-    margin-right: 5px;
-    display: flex;
-} */
-
-/* .leftarrow {
-    margin-left: 8px;
-}
-.rightarrow{
-    margin-left: 8px;
-}
-.darkmode .leftarrow {
-    margin-left: 8px;
-}
-.darkmode .rightarrow{
-    margin-left: 8px;
-}
-
-.leftarrowpath{
-    fill: none;
-    stroke: var(--col-02);
-    stroke-width: 1px;
-    stroke-linecap: butt;
-    overflow: visible;
-}
-.darkmode .leftarrowpath{
-    fill: none;
-    stroke: var(--col-01);
-    stroke-width: 1px;
-    stroke-linecap: butt;
-    overflow: visible;
-}
-
-.rightarrowpath{
-    fill: none;
-    stroke: var(--col-02);
-    stroke-width: 1px;
-    stroke-linecap: butt;
-    overflow: visible;
-}
-.darkmode .rightarrowpath{
-    fill: none;
-    stroke: var(--col-01);
-    stroke-width: 1px;
-    stroke-linecap: butt;
-    overflow: visible;
-} */
