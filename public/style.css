@@ -160,6 +160,18 @@ body{
   text-align: left;
 }
 
+.info-Ccontent{
+  text-align: left;
+}
+
+.info-Scontent{
+  text-align: left;
+}
+
+.info-Zcontent{
+  text-align: left;
+}
+
 .info-Description { 
   grid-area: Description;
   display: flex;
