@@ -169,9 +169,6 @@ body{
   height: 7vh;
 }
 
-  /* .info-Ccontent{
-    background: blue;
-  } */
 .info-Contact { 
   grid-area: Contact; 
   text-align: right;
@@ -179,9 +176,6 @@ body{
   height: 3vh;
 }
   
-/* .info-Scontent{
-    background-color: grey;
-} */
 .info-Social { 
   grid-area: Social; 
   text-align: right;
@@ -190,9 +184,6 @@ body{
   height: 3vh;
 }
   
-/* .info-Zcontent{
-    background-color:lightcoral ;
-} */
   .info-Ztyle { 
   grid-area: Ztyle; 
   display: flex;
