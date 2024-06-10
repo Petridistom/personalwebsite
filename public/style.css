@@ -300,14 +300,17 @@ a {
   color: var(--col-02);
   height: 20px;
 }
+
 .darkmode a {
   color: var(--col-01);
 }
+
 a:hover {
   text-decoration: underline;
   color: var(--col-02);
   transition: 0s;
 }
+
 .darkmode a:hover {
   text-decoration: underline;
   color: var(--col-01);
