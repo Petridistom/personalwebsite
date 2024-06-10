@@ -20,7 +20,7 @@
 }
 
 body{
-    /* margin: 0px; */
+    margin: 0px;
     background-color: var(--col-01);
     color: var(--col-02);
 }
