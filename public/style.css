@@ -156,7 +156,7 @@ body{
     "   Ztyle       Zcontent";
 }
   
-.info-Dcontent{
+/* .info-Dcontent{
   text-align: left;
 }
 
@@ -170,7 +170,7 @@ body{
 
 .info-Zcontent{
   text-align: left;
-}
+} */
 
 .info-Description { 
   grid-area: Description;
