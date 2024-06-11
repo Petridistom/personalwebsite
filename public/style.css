@@ -159,11 +159,6 @@ body{
     "   Ztyle       Zcontent";
 }
 
-.info-Dcontent{
-  /* background-color: darkgray; */
-  text-align: left;
-}
-
 .info-Description { 
   grid-area: Description;
   display: flex;
@@ -173,34 +168,26 @@ body{
   justify-content: space-between;
   height: 7vh;
 }
-/* .info-Ccontent{
-  background: blue;
-} */
+
 .info-Contact { 
   grid-area: Contact; 
   display: flex;
-  background-color: brown;
+  /* background-color: brown; */
   text-align: right;
   justify-content: space-between;
   height: 3vh;
 }
 
-/* .info-Scontent{
-  background-color: grey;
-} */
 .info-Social { 
   grid-area: Social; 
   display: flex;
-  background-color: yellow;
+  /* background-color: yellow; */
   text-align: right;
   text-transform: uppercase;
   justify-content: space-between;
   height: 3vh;
 }
 
-/* .info-Zcontent{
-  background-color:lightcoral ;
-} */
 .info-Ztyle { 
   grid-area: Ztyle; 
   display: flex;
@@ -210,6 +197,24 @@ body{
   justify-content: space-between;
   height: 3vh;
 }
+
+.info-Dcontent{
+  background-color: darkgray;
+  text-align: left;
+}
+.info-Ccontent{
+  background: blue;
+  text-align: left;
+}
+.info-Scontent{
+  background-color: grey;
+  text-align: left;
+}
+.info-Zcontent{
+  background-color:lightcoral ;
+  text-align: left;
+}
+
 
 @media (max-width: 768px) {
   .info-Dcontent{
