@@ -179,7 +179,7 @@ body{
 .info-Contact { 
   grid-area: Contact; 
   display: flex;
-  /* background-color: brown; */
+  background-color: brown;
   text-align: right;
   justify-content: space-between;
   height: 3vh;
@@ -191,7 +191,7 @@ body{
 .info-Social { 
   grid-area: Social; 
   display: flex;
-  /* background-color: yellow; */
+  background-color: yellow;
   text-align: right;
   text-transform: uppercase;
   justify-content: space-between;
