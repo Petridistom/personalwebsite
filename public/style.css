@@ -199,19 +199,19 @@ body{
 }
 
 .info-Dcontent{
-  background-color: darkgray;
+  /* background-color: darkgray; */
   text-align: left;
 }
 .info-Ccontent{
-  background: blue;
+  /* background: blue; */
   text-align: left;
 }
 .info-Scontent{
-  background-color: grey;
+  /* background-color: grey; */
   text-align: left;
 }
 .info-Zcontent{
-  background-color:lightcoral ;
+  /* background-color:lightcoral ; */
   text-align: left;
 }
 
