@@ -173,6 +173,10 @@ body{
   "selfportrait text";
 }
 
+.self-portrait{
+  grid-area: selfportrait;
+}
+
 /* information grid layout */
 .info-container {
   grid-area: text;
