@@ -230,23 +230,23 @@ body{
 
 .info-Dcontent{
   grid-area: Dcontent;
-  /* background-color: darkgray; */
-  justify-content: center;
+display: flex;
+justify-content: end;
 }
 .info-Ccontent{
   grid-area: Ccontent;
-  /* background: blue; */
-  justify-content: center;
+display: flex;
+justify-content: end;
 }
 .info-Scontent{
   grid-area: Scontent;
-  /* background-color: grey; */
-  justify-content: center;
+display: flex;
+justify-content: end;
 }
 .info-Zcontent{
   grid-area: Zcontent;
-  /* background-color:lightcoral ; */
-  justify-content: center;
+display: flex;
+justify-content: end;
 }
 
 /* Title Styling */
