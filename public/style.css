@@ -184,6 +184,7 @@ body{
 .info-container {
   grid-area: text;
   margin-left: 5px;
+  margin-right: 5px;
   display: grid;
   grid-template-columns: 1fr .5fr;
   grid-template-rows: 0.05fr 0.05fr 0.05fr 0.05fr;
