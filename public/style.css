@@ -60,8 +60,10 @@ body{
 
 .Name {
   grid-area: Name;
-  background-color: red;
-  margin-bottom: 2px;
+  background-color: var(--col-02);
+}.darkmode .Name {
+  grid-area: Name;
+  background-color: var(--col-01);
 }
 
 .Navigation { 
@@ -69,7 +71,6 @@ body{
   display: flex;
   justify-content: space-between;
   background-color: orange;
-  margin-bottom: 2px;
 }
 
 .Navigation ul {
