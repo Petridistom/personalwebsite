@@ -229,19 +229,19 @@ body{
 }
 
 .info-Dcontent{
-  text-align: center;
+  text-align: right;
   /* background-color: darkgray; */
 }
 .info-Ccontent{
-  text-align: center;
+  text-align: right;
   /* background: blue; */
 }
 .info-Scontent{
-  text-align: center;
+  text-align: right;
   /* background-color: grey; */
 }
 .info-Zcontent{
-  text-align: center;
+  text-align: right;
   /* background-color:lightcoral ; */
 }
 
