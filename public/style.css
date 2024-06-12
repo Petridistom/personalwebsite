@@ -39,6 +39,7 @@ body{
 .pitawrap{
   position: fixed;
   width: 100%;
+  margin: 10px;
 }
 
 /* Grid Layout */
@@ -71,14 +72,10 @@ body{
 
 .Name {
   grid-area: Name;
-  display: flex;
   background-color: var(--col-01);
-  margin-bottom: 5px;
 }.darkmode .Name {
   grid-area: Name;
-  display: flex;
   background-color: var(--col-02);
-  margin-bottom: 5px;
 }
 
 .Navigation { 
@@ -86,13 +83,11 @@ body{
   display: flex;
   justify-content: space-between;
   background-color: var(--col-01);
-  margin-bottom: 5px;
 }.darkmode .Navigation { 
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
   background-color: var(--col-02);
-  margin-bottom: 5px;
 }
 
 .Navigation ul {
