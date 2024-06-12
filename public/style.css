@@ -39,7 +39,13 @@ body{
 .pitawrap{
   position: fixed;
   width: 100%;
-  margin: 10px;
+  margin: 5px;
+  background-color: var(--col-01);
+}.darkmode .pitawrap{
+  position: fixed;
+  width: 100%;
+  margin: 5px;
+  background-color: var(--col-02);
 }
 
 /* Grid Layout */
@@ -72,22 +78,18 @@ body{
 
 .Name {
   grid-area: Name;
-  background-color: var(--col-01);
 }.darkmode .Name {
   grid-area: Name;
-  background-color: var(--col-02);
 }
 
 .Navigation { 
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
-  background-color: var(--col-01);
 }.darkmode .Navigation { 
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
-  background-color: var(--col-02);
 }
 
 .Navigation ul {
