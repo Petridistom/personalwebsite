@@ -231,22 +231,22 @@ body{
 .info-Dcontent{
   grid-area: Dcontent;
   /* background-color: darkgray; */
-  justify-content: end;
+  justify-content: center;
 }
 .info-Ccontent{
   grid-area: Ccontent;
   /* background: blue; */
-  justify-content: end;
+  justify-content: center;
 }
 .info-Scontent{
   grid-area: Scontent;
   /* background-color: grey; */
-  justify-content: end;
+  justify-content: center;
 }
 .info-Zcontent{
   grid-area: Zcontent;
   /* background-color:lightcoral ; */
-  justify-content: end;
+  justify-content: center;
 }
 
 /* Title Styling */
