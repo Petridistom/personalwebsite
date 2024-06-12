@@ -228,18 +228,22 @@ body{
   height: 3vh;
 }
 
-/* .info-Dcontent{
-  background-color: darkgray;
+.info-Dcontent{
+  justify-content: end;
+  /* background-color: darkgray; */
 }
 .info-Ccontent{
-  background: blue;
+  justify-content: end;
+  /* background: blue; */
 }
 .info-Scontent{
-  background-color: grey;
+  justify-content: end;
+  /* background-color: grey; */
 }
 .info-Zcontent{
-  background-color:lightcoral ;
-} */
+  justify-content: end;
+  /* background-color:lightcoral ; */
+}
 
 /* Title Styling */
 .textlogolink{
