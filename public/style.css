@@ -166,7 +166,7 @@ body{
 /* info-page-megawrap */
 .info-page-megawrap{
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 1.3fr 1fr;
   grid-template-rows: auto;
   grid-auto-columns: 1fr;
   grid-template-areas:
@@ -175,6 +175,7 @@ body{
 
 .self-portrait{
   grid-area: selfportrait;
+  margin: 12px;
 }
 
 /* information grid layout */
