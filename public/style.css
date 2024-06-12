@@ -166,7 +166,7 @@ body{
 /* info-page-megawrap */
 .info-page-megawrap{
   display: grid;
-  grid-template-columns: 1fr 1.3fr;
+  grid-template-columns: 1fr 1.5fr;
   grid-template-rows: auto;
   grid-auto-columns: 1fr;
   grid-template-areas:
