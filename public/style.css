@@ -193,7 +193,7 @@ body{
     "   Description Dcontent"
     "   Contact     Ccontent"
     "   Social      Scontent"
-    "   Ztyle       Zcontent";
+    "   Type        Tcontent";
 }
 
 .info-Description { 
@@ -220,8 +220,8 @@ body{
   height: 3vh;
 }
 
-.info-Ztyle { 
-  grid-area: Ztyle; 
+.info-Type { 
+  grid-area: Type; 
   display: flex;
   text-align: right;
   justify-content: space-between;
