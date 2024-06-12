@@ -60,22 +60,22 @@ body{
 
 .Name {
   grid-area: Name;
-  background-color: var(--col-02);
+  background-color: var(--col-01);
 }.darkmode .Name {
   grid-area: Name;
-  background-color: var(--col-01);
+  background-color: var(--col-02);
 }
 
 .Navigation { 
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
-  background-color: var(--col-02);
+  background-color: var(--col-01);
 }.darkmode .Navigation { 
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
-  background-color: var(--col-01);
+  background-color: var(--col-02);
 }
 
 .Navigation ul {
