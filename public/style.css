@@ -175,7 +175,7 @@ body{
 
 .self-portrait{
   grid-area: selfportrait;
-  margin: 12px;
+  margin-left: 12px;
 }
 
 /* information grid layout */
