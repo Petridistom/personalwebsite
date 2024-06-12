@@ -162,7 +162,6 @@ body{
 .info-Description { 
   grid-area: Description;
   display: flex;
-  /* background-color: orchid; */
   text-align: right;
   text-transform: uppercase;
   justify-content: space-between;
@@ -172,7 +171,6 @@ body{
 .info-Contact { 
   grid-area: Contact; 
   display: flex;
-  /* background-color: brown; */
   text-align: right;
   justify-content: space-between;
   height: 3vh;
@@ -181,7 +179,6 @@ body{
 .info-Social { 
   grid-area: Social; 
   display: flex;
-  /* background-color: yellow; */
   text-align: right;
   text-transform: uppercase;
   justify-content: space-between;
@@ -191,7 +188,6 @@ body{
 .info-Ztyle { 
   grid-area: Ztyle; 
   display: flex;
-  /* background-color: purple; */
   text-align: right;
   text-transform: uppercase;
   justify-content: space-between;
