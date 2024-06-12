@@ -1,7 +1,7 @@
 *{
   /* remove list dots and link underlines */
-  /* list-style: none; */
-  /* text-decoration: none; */
+  list-style: none;
+  text-decoration: none;
   transition: ease-in 0.2s;
   line-height: 1;
 }
