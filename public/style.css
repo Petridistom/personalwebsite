@@ -19,13 +19,13 @@ body{
   margin: 0px;
   background-color: var(--col-01);
   color: var(--col-02);
-  scrollbar-width: none;
+  scrollbar-width: 0px;
 }
 .darkmode body{ 
   margin: 0px;
   background-color: var(--col-02);
   color: var(--col-02);
-  scrollbar-width: none;
+  scrollbar-width: 0px;
 }
 
 .spaceblock {
