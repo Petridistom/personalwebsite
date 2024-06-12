@@ -295,11 +295,9 @@ li:hover{
 
 a {
   color: var(--col-02);
-  height: 20px;
 }
 .darkmode a {
   color: var(--col-01);
-  height: 20px;
 }
 a:hover {
   text-decoration: underline;
