@@ -172,10 +172,10 @@ body{
   gap: 2px 2px;
   grid-auto-flow: row;
   grid-template-areas:
-    ".   Description Dcontent"
-    ".   Contact     Ccontent"
-    ".   Social      Scontent"
-    ".   Ztyle       Zcontent";
+    "   Description Dcontent"
+    "   Contact     Ccontent"
+    "   Social      Scontent"
+    "   Ztyle       Zcontent";
 }
 
 .info-Description { 
