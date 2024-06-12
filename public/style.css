@@ -61,13 +61,15 @@ body{
 .Name {
   grid-area: Name;
   background-color: red;
+  margin-bottom: 2px;
 }
 
 .Navigation { 
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
-  background-color: orange;    
+  background-color: orange;
+  margin-bottom: 2px;
 }
 
 .Navigation ul {
