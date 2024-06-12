@@ -185,7 +185,7 @@ body{
   grid-area: text;
   margin-left: 5px;
   display: grid;
-  grid-template-columns: .1fr .5fr;
+  grid-template-columns: 1fr .5fr;
   grid-template-rows: 0.05fr 0.05fr 0.05fr 0.05fr;
   gap: 2px 2px;
   grid-auto-flow: row;
@@ -228,26 +228,18 @@ body{
   height: 3vh;
 }
 
-.info-Dcontent{
+/* .info-Dcontent{
   grid-area: Dcontent;
-display: flex;
-justify-content: end;
 }
 .info-Ccontent{
   grid-area: Ccontent;
-display: flex;
-justify-content: end;
 }
 .info-Scontent{
   grid-area: Scontent;
-display: flex;
-justify-content: end;
 }
 .info-Zcontent{
   grid-area: Zcontent;
-display: flex;
-justify-content: end;
-}
+} */
 
 /* Title Styling */
 .textlogolink{
