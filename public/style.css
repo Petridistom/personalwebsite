@@ -70,9 +70,11 @@ body{
 }
 
 .Name {
+  margin-bottom: 5px;
   grid-area: Name;
   background-color: var(--col-01);
 }.darkmode .Name {
+  margin-bottom: 5px;
   grid-area: Name;
   background-color: var(--col-02);
 }
