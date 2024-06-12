@@ -111,7 +111,7 @@ body{
 }
 .footer-year {
   grid-area: year;
-  /* background-color: red; */
+  background-color: var(--col-01);
 }
 .footer-year p {
   margin-left: 5px;
