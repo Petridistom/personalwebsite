@@ -39,12 +39,12 @@ body{
 .pitawrap{
   position: fixed;
   width: 100%;
-  margin-bottom: 5px;
+  height: 20px;
   background-color: var(--col-01);
 }.darkmode .pitawrap{
   position: fixed;
   width: 100%;
-  margin-bottom: 5px;
+  height: 20px;
   background-color: var(--col-02);
 }
 
