@@ -70,23 +70,23 @@ body{
 }
 
 .Name {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   grid-area: Name;
   background-color: var(--col-01);
 }.darkmode .Name {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   grid-area: Name;
   background-color: var(--col-02);
 }
 
 .Navigation { 
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
   background-color: var(--col-01);
 }.darkmode .Navigation { 
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
