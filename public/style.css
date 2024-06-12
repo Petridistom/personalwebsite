@@ -163,8 +163,19 @@ body{
   color: var(--col-03);
 }
 
+/* info-page-megawrap */
+.info-page-megawrap{
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: auto;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+  "selfportrait text";
+}
+
 /* information grid layout */
 .info-container {
+  grid-area: text;
   margin-left: 5px;
   display: grid;
   grid-template-columns: .18fr .6fr;
