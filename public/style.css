@@ -147,7 +147,7 @@ body{
 }
 
 /*Grid Layout*/
-/* .info-container {
+.info-container {
   margin-left: 5px;
   display: grid;
   grid-template-columns: .18fr .6fr;
@@ -159,7 +159,7 @@ body{
     "   Contact     Ccontent"
     "   Social      Scontent"
     "   Ztyle       Zcontent";
-} */
+}
 
 .info-Description { 
   grid-area: Description;
