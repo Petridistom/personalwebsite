@@ -127,10 +127,11 @@ body{
 .footer-link {
   grid-area: link;
   background-color: var(--col-02);
-  place-self: end;
+  /* place-self: end; */
 }
 .footer-link p {
   margin-right: 5px;
+  text-align: right;
   color: var(--col-03);
 }
 .darkmode .footer-link p {
