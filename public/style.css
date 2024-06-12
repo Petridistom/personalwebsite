@@ -177,7 +177,7 @@ body{
   grid-area: selfportrait;
   margin-left: 12px;
 }.self-portrait img{
-  width: 45vw;
+  width: 35vw;
 }
 
 /* information grid layout */
