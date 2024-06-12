@@ -119,12 +119,12 @@ body{
   grid-area: year;
   background-color: var(--col-01);
   height: 20px;
-  place-self: end;
+  place-self: stretch start;
 }.darkmode .footer-year{
   grid-area: year;
   background-color: var(--col-02);
   height: 20px;
-  place-self: end;
+  place-self: stretch start;
 }
 .footer-year p {
   margin-left: 5px;
@@ -140,12 +140,12 @@ body{
   grid-area: link;
   background-color: var(--col-01);
   height: 20px;
-  place-self: end;
+  place-self: stretch start;
 }.darkmode .footer-link{
   grid-area: link;
   background-color: var(--col-02);
   height: 20px;
-  place-self: end;
+  place-self: stretch start;
 }
 .footer-link p {
   margin-right: 5px;
