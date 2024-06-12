@@ -301,3 +301,6 @@ a:hover {
 .page-links a:hover{
   cursor: default;
 }
+.footer-link{
+  cursor: default;
+}
