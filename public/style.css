@@ -166,7 +166,7 @@ body{
 /* info-page-megawrap */
 .info-page-megawrap{
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
   grid-template-rows: auto;
   grid-auto-columns: 1fr;
   grid-template-areas:
@@ -183,7 +183,7 @@ body{
   margin-left: 5px;
   display: grid;
   grid-template-columns: .18fr .6fr;
-  grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
   gap: 2px 2px;
   grid-auto-flow: row;
   grid-template-areas:
