@@ -70,7 +70,12 @@ body{
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
-  background-color: orange;
+  background-color: var(--col-02);
+}.darkmode .Navigation { 
+  grid-area: Navigation;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--col-01);
 }
 
 .Navigation ul {
