@@ -62,7 +62,7 @@ body{
   grid-template-columns: 1.2fr 1fr;
   grid-template-rows: 1.2fr ;
   grid-auto-columns: 1fr;
-  gap: 2px 2px;
+  gap: 0px;
   grid-auto-flow: row;
   justify-items: stretch;
   grid-template-areas:
@@ -70,19 +70,23 @@ body{
 }
 
 .Name {
+  margin: 10px;
   grid-area: Name;
   background-color: var(--col-01);
 }.darkmode .Name {
+  margin: 10px;
   grid-area: Name;
   background-color: var(--col-02);
 }
 
 .Navigation { 
+  margin: 10px;
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
   background-color: var(--col-01);
 }.darkmode .Navigation { 
+  margin: 10px;
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
