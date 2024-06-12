@@ -288,11 +288,9 @@ li{
 li:hover{
   color: var(--col-02);
   padding-right: 5px;
-  text-decoration: underline;
 }
 .darkmode li:hover{
   color: var(--col-01);
-  text-decoration: underline;
 }
 
 a {
