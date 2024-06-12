@@ -78,13 +78,13 @@ body{
 }
 
 .Navigation { 
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
   background-color: var(--col-01);
 }.darkmode .Navigation { 
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
