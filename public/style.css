@@ -297,3 +297,7 @@ a:hover {
   color: var(--col-01);
   transition: 0s;
 }
+
+.page-links a:hover{
+  cursor: default;
+}
