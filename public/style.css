@@ -195,15 +195,19 @@ body{
 
 .info-Dcontent{
   background-color: darkgray;
+  z-index: 99;
 }
 .info-Ccontent{
   background: blue;
+  z-index: 99;
 }
 .info-Scontent{
   background-color: grey;
+  z-index: 99;
 }
 .info-Zcontent{
   background-color:lightcoral ;
+  z-index: 99;
 }
 
 
