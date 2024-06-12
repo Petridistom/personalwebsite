@@ -228,18 +228,26 @@ body{
   height: 3vh;
 }
 
-/* .info-Dcontent{
-  background-color: darkgray;
+.info-Dcontent{
+  grid-area: Dcontent;
+  /* background-color: darkgray; */
+  justify-content: end;
 }
 .info-Ccontent{
-  background: blue;
+  grid-area: Ccontent;
+  /* background: blue; */
+  justify-content: end;
 }
 .info-Scontent{
-  background-color: grey;
+  grid-area: Scontent;
+  /* background-color: grey; */
+  justify-content: end;
 }
 .info-Zcontent{
-  background-color:lightcoral ;
-} */
+  grid-area: Zcontent;
+  /* background-color:lightcoral ; */
+  justify-content: end;
+}
 
 /* Title Styling */
 .textlogolink{
