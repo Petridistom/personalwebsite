@@ -165,7 +165,6 @@ body{
   grid-area: Description;
   display: flex;
   text-align: right;
-  text-transform: uppercase;
   justify-content: space-between;
   height: 7vh;
 }
@@ -182,7 +181,6 @@ body{
   grid-area: Social; 
   display: flex;
   text-align: right;
-  text-transform: uppercase;
   justify-content: space-between;
   height: 3vh;
 }
@@ -191,26 +189,25 @@ body{
   grid-area: Ztyle; 
   display: flex;
   text-align: right;
-  text-transform: uppercase;
   justify-content: space-between;
   height: 3vh;
 }
 
 .info-Dcontent{
   /* background-color: darkgray; */
-  text-align: left;
+  /* text-align: left; */
 }
 .info-Ccontent{
   /* background: blue; */
-  text-align: left;
+  /* text-align: left; */
 }
 .info-Scontent{
   /* background-color: grey; */
-  text-align: left;
+  /* text-align: left; */
 }
 .info-Zcontent{
   /* background-color:lightcoral ; */
-  text-align: left;
+  /* text-align: left; */
 }
 
 
