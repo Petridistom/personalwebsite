@@ -185,7 +185,7 @@ body{
   grid-area: text;
   margin-left: 5px;
   display: grid;
-  grid-template-columns: .18fr .6fr;
+  grid-template-columns: .1fr .5fr;
   grid-template-rows: 0.05fr 0.05fr 0.05fr 0.05fr;
   gap: 2px 2px;
   grid-auto-flow: row;
@@ -228,22 +228,18 @@ body{
   height: 3vh;
 }
 
-.info-Dcontent{
-  text-align: right;
-  /* background-color: darkgray; */
+/* .info-Dcontent{
+  background-color: darkgray;
 }
 .info-Ccontent{
-  text-align: right;
-  /* background: blue; */
+  background: blue;
 }
 .info-Scontent{
-  text-align: right;
-  /* background-color: grey; */
+  background-color: grey;
 }
 .info-Zcontent{
-  text-align: right;
-  /* background-color:lightcoral ; */
-}
+  background-color:lightcoral ;
+} */
 
 /* Title Styling */
 .textlogolink{
