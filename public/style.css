@@ -106,6 +106,7 @@ body{
 }
 
 .Masonry {
+  margin: 10px;
   grid-area: Masonry;
   /* background-color: purple; */
 }
