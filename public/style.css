@@ -70,11 +70,9 @@ body{
 }
 
 .Name {
-  margin-bottom: 5px;
   grid-area: Name;
   background-color: var(--col-01);
 }.darkmode .Name {
-  margin-bottom: 5px;
   grid-area: Name;
   background-color: var(--col-02);
 }
@@ -119,9 +117,12 @@ body{
 }
 .footer-year {
   grid-area: year;
+  margin-bottom: 5px;
+  height: 20px;
   background-color: var(--col-01);
 }.darkmode .footer-year{
   grid-area: year;
+  height: 20px;
   background-color: var(--col-02);
 }
 .footer-year p {
@@ -136,9 +137,11 @@ body{
 }
 .footer-link {
   grid-area: link;
+  height: 20px;
   background-color: var(--col-01);
 }.darkmode .footer-link{
   grid-area: link;
+  height: 20px;
   background-color: var(--col-02);
 }
 .footer-link p {
