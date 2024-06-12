@@ -291,13 +291,11 @@ a:hover {
   text-decoration: underline;
   color: var(--col-02);
   transition: 0s;
-  cursor: default;
 }
 .darkmode a:hover {
   text-decoration: underline;
   color: var(--col-01);
   transition: 0s;
-  cursor: default;
 }
 .page-links a:hover{
   cursor: default;
