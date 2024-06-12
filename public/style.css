@@ -112,17 +112,15 @@ body{
   bottom: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-template-areas: 
   "year link";
 }
 .footer-year {
   grid-area: year;
-  margin-bottom: 5px;
-  height: 20px;
   background-color: var(--col-01);
 }.darkmode .footer-year{
   grid-area: year;
-  height: 20px;
   background-color: var(--col-02);
 }
 .footer-year p {
@@ -137,11 +135,9 @@ body{
 }
 .footer-link {
   grid-area: link;
-  height: 20px;
   background-color: var(--col-01);
 }.darkmode .footer-link{
   grid-area: link;
-  height: 20px;
   background-color: var(--col-02);
 }
 .footer-link p {
