@@ -193,7 +193,7 @@ body{
   height: 3vh;
 }
 
-.info-Dcontent{
+/* .info-Dcontent{
   background-color: darkgray;
 }
 .info-Ccontent{
@@ -204,7 +204,7 @@ body{
 }
 .info-Zcontent{
   background-color:lightcoral ;
-}
+} */
 
 
 @media (max-width: 768px) {
