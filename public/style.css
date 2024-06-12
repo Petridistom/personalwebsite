@@ -167,7 +167,7 @@ body{
 .info-container {
   margin-left: 5px;
   display: grid;
-  grid-template-columns: 1fr .18fr .6fr;
+  grid-template-columns: .18fr .6fr;
   grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr;
   gap: 2px 2px;
   grid-auto-flow: row;
