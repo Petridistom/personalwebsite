@@ -102,7 +102,6 @@ body{
 }
 
 .footer-container{
-  background-color: var(--col-02);
   position: fixed;
   bottom: 0;
   display: grid;
