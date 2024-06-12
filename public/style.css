@@ -295,7 +295,7 @@ a {
 .darkmode a {
   color: var(--col-01);
 }
-/* a:hover {
+a:hover {
   text-decoration: underline;
   color: var(--col-02);
   transition: 0s;
@@ -304,4 +304,4 @@ a {
   text-decoration: underline;
   color: var(--col-01);
   transition: 0s;
-} */
+}
