@@ -295,12 +295,12 @@ li:hover{
 a {
   color: var(--col-02);
   cursor: default;
-  display: inline-block;
+  height: 12px;
 }
 .darkmode a {
   color: var(--col-01);
   cursor: default;
-  display: inline-block;
+  height: 12px;
 }
 a:hover {
   text-decoration: underline;
