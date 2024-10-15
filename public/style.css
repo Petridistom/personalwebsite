@@ -213,7 +213,7 @@ body{
   height: 3vh;
 }
 
-.info Instagram { 
+.info-Instagram { 
   grid-area: Instagram; 
   display: flex;
   text-align: right;
@@ -222,7 +222,7 @@ body{
   background-color: red;
 }
 
-.info Tumblr { 
+.info-Tumblr { 
   grid-area: Tumblr; 
   display: flex;
   text-align: right;
