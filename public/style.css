@@ -32,9 +32,9 @@ body{
 .spaceblock {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: .5fr;
   grid-template-areas: "outerspacewooOOOooOOoO";
-  height: 7.5vh;
+  height: 15vh;
   /* background-color: blue; */
 }
 
