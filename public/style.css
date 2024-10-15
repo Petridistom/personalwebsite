@@ -215,16 +215,7 @@ body{
 .info-Social { 
   grid-area: Social; 
   display: flex;
-  text-align: right;
-  justify-content: space-between;
-  height: 3vh;
-  background-color: red;
-}
-
-.info-Tumblr { 
-  grid-area: Tumblr; 
-  display: flex;
-  text-align: right;
+  text-align: left;
   justify-content: space-between;
   height: 3vh;
 }
@@ -236,19 +227,6 @@ body{
   justify-content: space-between;
   height: 3vh;
 }
-
-/* .info-Dcontent{
-  grid-area: Dcontent;
-}
-.info-Ccontent{
-  grid-area: Ccontent;
-}
-.info-Scontent{
-  grid-area: Scontent;
-}
-.info-Zcontent{
-  grid-area: Zcontent;
-} */
 
 /* Title Styling */
 .textlogolink{
