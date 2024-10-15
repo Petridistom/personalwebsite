@@ -34,7 +34,7 @@ body{
   grid-template-columns: 1fr;
   grid-template-rows: .5fr;
   grid-template-areas: "outerspacewooOOOooOOoO";
-  height: 15vh;
+  height: 2vh;
   /* background-color: blue; */
 }
 
