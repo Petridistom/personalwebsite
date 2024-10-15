@@ -50,12 +50,6 @@ body{
   background-color: var(--col-02);
 }
 
-.featured-work{
-  width: 100vw;
-  height: 100vh;
-  
-}
-
 /* Grid Layout */
 .container {
   display: grid;
