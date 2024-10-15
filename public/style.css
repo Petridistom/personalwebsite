@@ -218,6 +218,9 @@ body{
   text-align: left;
   justify-content: space-between;
   height: 3vh;
+}.info-Icontent { 
+  grid-area: Instagram; 
+  display: flex;
 }
 
 .info-Type { 
