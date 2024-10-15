@@ -219,7 +219,7 @@ body{
   justify-content: space-between;
   height: 3vh;
 }.info-Icontent { 
-  grid-area: Instagram; 
+  grid-area: Icontent; 
   display: flex;
 }
 
