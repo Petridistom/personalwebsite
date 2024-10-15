@@ -219,7 +219,15 @@ body{
   text-align: right;
   justify-content: space-between;
   height: 3vh;
+} .info-Icontent { 
+  grid-area: Icontent; 
+  display: flex;
+  text-align: left;
+  /* justify-content: space-between; */
+  height: 3vh;
 }
+
+
 
 .info-Type { 
   grid-area: Type; 
