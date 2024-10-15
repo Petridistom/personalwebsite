@@ -316,7 +316,3 @@ a:hover {
 .footer-link a:hover{
   cursor: default;
 }
-
-a {
-  height: 3px;
-}
