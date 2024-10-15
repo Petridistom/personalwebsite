@@ -218,6 +218,12 @@ body{
   text-align: left;
   justify-content: space-between;
   height: 3vh;
+}.info-Scontent { 
+  grid-area: Scontent; 
+  display: flex;
+  text-align: right;
+  /* justify-content: space-between; */
+  height: 3vh;
 }
 
 .info-Type { 
