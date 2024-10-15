@@ -186,13 +186,14 @@ body{
   margin-left: 5px;
   display: grid;
   grid-template-columns: 1fr .5fr;
-  grid-template-rows: 0.05fr 0.05fr 0.05fr 0.05fr;
+  grid-template-rows: 0.05fr 0.05fr 0.05fr 0.05fr 0.05fr;
   gap: 2px 2px;
   grid-auto-flow: row;
   grid-template-areas:
     "   Description Dcontent"
     "   Contact     Ccontent"
-    "   Social      Scontent"
+    "   Instagram   Icontent"
+    "   Tumblr      TumContent"
     "   Type        Tcontent";
 }
 
@@ -212,8 +213,16 @@ body{
   height: 3vh;
 }
 
-.info-Social { 
-  grid-area: Social; 
+.info Instagram { 
+  grid-area: Instagram; 
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  height: 3vh;
+}
+
+.info Tumblr { 
+  grid-area: Tumblr; 
   display: flex;
   text-align: right;
   justify-content: space-between;
@@ -234,8 +243,8 @@ body{
 .info-Ccontent{
   grid-area: Ccontent;
 }
-.info-Scontent{
-  grid-area: Scontent;
+.info-Icontent{
+  grid-area: Icontent;
 }
 .info-Zcontent{
   grid-area: Zcontent;
