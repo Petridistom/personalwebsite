@@ -193,7 +193,6 @@ body{
     "   Description Dcontent"
     "   Contact     Ccontent"
     "   Instagram   Icontent"
-    "   Tumblr      Tumcontent"
     "   Type        Tcontent";
 }
 
@@ -216,15 +215,8 @@ body{
 .info-Instagram { 
   grid-area: Instagram; 
   display: flex;
-  text-align: right;
-  justify-content: space-between;
-  height: 3vh;
-}
-.info-Icontent { 
-  grid-area: Icontent; 
-  display: flex;
   text-align: left;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   height: 3vh;
 }
 
