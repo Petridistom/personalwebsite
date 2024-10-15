@@ -320,3 +320,7 @@ a:hover {
 .footer-link a:hover{
   cursor: default;
 }
+
+a {
+  margin-top: -10;
+}
