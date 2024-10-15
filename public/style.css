@@ -29,14 +29,14 @@ body{
   color: var(--col-02);
 }
 
-/* .spaceblock {
+.spaceblock {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: .5fr;
   grid-template-areas: "outerspacewooOOOooOOoO";
   height: 2vh;
   background-color: blue;
-} */
+}
 
 .pitawrap{
   position: fixed;
