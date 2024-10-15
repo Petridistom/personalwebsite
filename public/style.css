@@ -219,6 +219,7 @@ body{
   text-align: right;
   justify-content: space-between;
   height: 3vh;
+  background-color: red;
 }
 
 .info Tumblr { 
