@@ -221,6 +221,7 @@ body{
 }.info-Icontent { 
   grid-area: Icontent; 
   display: flex;
+  flex-direction: column;
 }
 
 .info-Type { 
