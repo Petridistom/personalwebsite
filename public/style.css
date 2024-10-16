@@ -140,9 +140,15 @@ body{
 .footer-link {
   grid-area: link;
   background-color: var(--col-01);
-}.darkmode .footer-link{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}.darkmode .footer-link {
   grid-area: link;
-  background-color: var(--col-02);
+  background-color: var(--col-01);
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 .footer-link p {
   margin-right: 5px;
