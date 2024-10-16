@@ -200,7 +200,7 @@ body{
   display: flex;
   text-align: right;
   justify-content: space-between;
-  height: 7vh;
+  height: 5vh;
 }
 
 .info-Contact { 
@@ -208,7 +208,7 @@ body{
   display: flex;
   text-align: right;
   justify-content: space-between;
-  height: 3vh;
+  height: 5vh;
 }
 
 .info-Instagram { 
@@ -228,7 +228,7 @@ body{
   display: flex;
   text-align: right;
   justify-content: space-between;
-  height: 3vh;
+  height: 5vh;
 }
 
 /* Title Styling */
