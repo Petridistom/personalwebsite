@@ -293,12 +293,10 @@ li:hover{
 
 a {
   color: var(--col-02);
-  cursor: default;
   height: 12px;
 }
 .darkmode a {
   color: var(--col-01);
-  cursor: default;
   height: 12px;
 }
 a:hover {
@@ -310,10 +308,4 @@ a:hover {
   text-decoration: underline;
   color: var(--col-01);
   transition: 0s;
-}
-.page-links a:hover{
-  cursor: default;
-}
-.footer-link a:hover{
-  cursor: default;
 }
