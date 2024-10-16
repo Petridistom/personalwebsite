@@ -145,7 +145,7 @@ body{
   align-items: center;
 }.darkmode .footer-link {
   grid-area: link;
-  background-color: var(--col-01);
+  background-color: var(--col-02);
   display: flex;
   justify-content: end;
   align-items: center;
