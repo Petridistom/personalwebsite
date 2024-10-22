@@ -336,6 +336,9 @@ a:hover {
 .eepyah h2{
   margin-top: 0;
 }
+.eepyah p{
+  font-size: 12px;
+}
 
 .featured-work{
 width: 100%;
