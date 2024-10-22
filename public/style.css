@@ -313,3 +313,46 @@ a:hover {
   color: var(--col-01);
   transition: 0s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  text-align: center;
+}
+
+.post {
+  margin-bottom: 30px;
+}
+
+.post img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.post p {
+  text-align: left;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
