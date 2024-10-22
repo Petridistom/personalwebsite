@@ -322,8 +322,9 @@ a:hover {
 }
 
 .eepyah {
-margin-left: 20vw;
-margin-right: 20vw;
+  margin-top: 10vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 
 .eepyah img {
