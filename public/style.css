@@ -330,6 +330,9 @@ a:hover {
 .eepyah img {
   width: 100%;
 }
+.eepyah h1{
+  margin-bottom: -5px;
+}
 
 .featured-work{
 width: 100%;
