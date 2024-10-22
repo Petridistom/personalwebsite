@@ -325,3 +325,7 @@ a:hover {
 margin-left: 20vw;
 margin-right: 20vw;
 }
+
+.blog_image1 {
+  width: fit-content;
+}
