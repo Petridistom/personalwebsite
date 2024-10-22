@@ -326,7 +326,7 @@ margin-left: 20vw;
 margin-right: 20vw;
 }
 
-.blog_image1 {
-display: flex;
-flex-direction: column;
+.eepyah img {
+  width: 100%;
+  height: 100%;
 }
