@@ -329,7 +329,8 @@ a:hover {
   margin-bottom: 36px;
 }
 .eepyah p {
-  font-size: 16px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 15px;
 }
 .eepyah h1{
   margin: 0;
@@ -337,10 +338,7 @@ a:hover {
 .eepyah h2{
   margin-top: 0;
 }
-.eepyah p{
-  font-size: 15px;
-  font-weight: 300;
-}
+
 .eepyah a {
   color: var(--col-04);
 }
