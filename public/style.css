@@ -331,7 +331,9 @@ a:hover {
   width: 100%;
 }
 .eepyah h1{
-  margin-bottom: -5px;
+  margin: 0;
+}.eepyah h2 {
+  margin: 0;
 }
 
 .featured-work{
