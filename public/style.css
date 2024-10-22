@@ -225,8 +225,6 @@ body{
   grid-area: Icontent; 
   display: flex;
   flex-direction: column;
-}.info-Icontent a{
-  width: fit-content;
 }
 
 .info-Type { 
