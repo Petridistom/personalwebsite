@@ -314,6 +314,11 @@ a:hover {
   transition: 0s;
 }
 
+.featured-work {
+  width: 100vw;
+  height: 85vw
+}
+
 .divider {
   border: 0;
   height: 1px;
