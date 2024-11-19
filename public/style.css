@@ -17,11 +17,11 @@ body {
   justify-content: space-between;
 }
 
-.line {
+/* .line {
   border: 0;
   height: 1px;
   background-color: #ffffff;
-}
+} */
 
 .project {
   display: flex;
