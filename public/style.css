@@ -36,3 +36,18 @@ body {
 .project-thumbnail img{
   width: 150px;
 }
+
+/* unvisited link */
+a:link {
+  color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+  color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff0080;
+}
