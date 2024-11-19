@@ -21,14 +21,14 @@ body {
   justify-content: space-between;
 }
 
-/* .line {
+.line {
+  padding-bottom: 4px;
   border: 0;
   height: 1px;
   background-color: #ffffff;
-} */
+}
 
 .project {
-  border-top: #ffffff;
   display: flex;
   justify-content: space-between;
   align-content: center;
