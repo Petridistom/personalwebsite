@@ -17,6 +17,12 @@ body {
   justify-content: space-between;
 }
 
+.line {
+  border: 0;
+  height: 1px;
+  background-color: #ffffff;
+}
+
 .project {
   display: flex;
   justify-content: space-between;
