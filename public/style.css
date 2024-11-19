@@ -22,7 +22,7 @@ body {
 }
 
 .line {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   border: 0;
   height: 1px;
   background-color: #ffffff;
