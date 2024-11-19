@@ -23,7 +23,6 @@ body {
   justify-content: space-between;
 }
 
-.project-thumbnail{
+.project-thumbnail img{
   width: 100px;
 }
-
