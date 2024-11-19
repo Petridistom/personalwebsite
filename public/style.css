@@ -7,6 +7,9 @@ body {
   background-color: #000000;
   color: #ff0080;
 }
+.bodysector1 {
+  margin: 10% 10%;
+}
 
 .header {
   margin-left: 5px;
