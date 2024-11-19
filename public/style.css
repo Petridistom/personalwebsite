@@ -17,3 +17,13 @@ body {
   height: 50px;
   justify-content: space-between;
 }
+
+.project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-thumbnail{
+  width: 100px;
+}
+
