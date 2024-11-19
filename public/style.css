@@ -9,7 +9,7 @@
   font-weight: 300;
 }
 
-.body{
+body {
   background-color: var(--col-01);
   color: var(--col-03);
 }
