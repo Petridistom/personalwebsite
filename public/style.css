@@ -29,11 +29,10 @@ body {
 
 .project {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: end;
 }
 
 .project-thumbnail img{
   width: 150px;
-  align-items: center;
 }
