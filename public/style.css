@@ -30,6 +30,7 @@ body {
 .project {
   display: flex;
   justify-content: space-between;
+  align-content: space-around;
 }
 
 .project-thumbnail img{
