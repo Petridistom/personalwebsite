@@ -18,6 +18,10 @@ body {
   justify-content: space-between;
 }
 
+.line {
+  border-bottom: 1px solid #ffffff;
+}
+
 .project {
   display: flex;
   justify-content: space-between;
