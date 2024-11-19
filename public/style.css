@@ -23,11 +23,6 @@ body{
   background-color: var(--col-01);
   color: var(--col-02);
 }
-.darkmode body{ 
-  margin: 0px;
-  background-color: var(--col-02);
-  color: var(--col-02);
-}
 
 .spaceblock {
   display: grid;
@@ -42,11 +37,6 @@ body{
   width: 100%;
   height: 25px;
   background-color: var(--col-01);
-}.darkmode .pitawrap{
-  position: fixed;
-  width: 100%;
-  height: 25px;
-  background-color: var(--col-02);
 }
 
 /* Grid Layout */
@@ -78,15 +68,9 @@ body{
 
 .Name {
   grid-area: Name;
-}.darkmode .Name {
-  grid-area: Name;
 }
 
 .Navigation { 
-  grid-area: Navigation;
-  display: flex;
-  justify-content: space-between;
-}.darkmode .Navigation { 
   grid-area: Navigation;
   display: flex;
   justify-content: space-between;
@@ -123,28 +107,16 @@ body{
 .footer-year {
   grid-area: year;
   background-color: var(--col-01);
-}.darkmode .footer-year{
-  grid-area: year;
-  background-color: var(--col-02);
 }
 .footer-year p {
   margin-left: 5px;
   color: var(--col-03);
   width: 50vw;
 }
-.darkmode .footer-year p {
-  margin-left: 5px;
-  color: var(--col-03);
-  width: 50vw;
-}
+
 .footer-link {
   grid-area: link;
   background-color: var(--col-01);
-  display: flex;
-  justify-content: end;
-}.darkmode .footer-link {
-  grid-area: link;
-  background-color: var(--col-02);
   display: flex;
   justify-content: end;
 }
@@ -153,18 +125,12 @@ body{
   text-align: right;
   color: var(--col-03);
 }
-.darkmode .footer-link p {
-  margin-right: 5px;
-  color: var(--col-03);
-}
+
 .footer-link a:hover {
   text-decoration: underline;
   color: var(--col-03);
 }
-.darkmode .footer-link a:hover {
-  text-decoration: underline;
-  color: var(--col-03);
-}
+
 
 /* info-page-megawrap */
 .info-page-megawrap{
@@ -245,19 +211,12 @@ body{
 .textlogolink:hover{
   cursor: pointer;
 }
-.darkmode .textlogolink{
-  margin-left: 5px;
-  color: var(--col-01);
-  line-height: 0;
-}
+
 p{
   color: var(--col-02);
   cursor: default;
 }
-.darkmode p {
-  color: var(--col-01);
-  cursor: default;
-}
+
 
 .square{
   width: 7px;
@@ -269,50 +228,31 @@ p{
   cursor: pointer;
   margin-top: 8px;
 }
-.darkmode .square {
-  width: 7px;
-  height: 7px;
-  border-style: solid;
-  border-color: var(--col-01);
-  border-width: 1px;
-  cursor: pointer;
-  margin-top: 8px;
-}
+
 
 li{
   color: var(--col-02);
   padding-right: 5px;
   margin-top: 8px;
 }
-.darkmode li{
-  color: var(--col-01);
-}
+
 li:hover{
   color: var(--col-02);
   padding-right: 5px;
 }
-.darkmode li:hover{
-  color: var(--col-01);
-}
+
 
 a {
   color: var(--col-02);
   height: 12px;
 }
-.darkmode a {
-  color: var(--col-01);
-  height: 12px;
-}
+
 a:hover {
   text-decoration: underline;
   color: var(--col-02);
   transition: 0s;
 }
-.darkmode a:hover {
-  text-decoration: underline;
-  color: var(--col-01);
-  transition: 0s;
-}
+
 
 .divider {
   border: 0;
