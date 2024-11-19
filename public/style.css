@@ -10,5 +10,6 @@
 }
 
 body{
+  background-color: var(--col-01);
   color: var(--col-03);
 }
