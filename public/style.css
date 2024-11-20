@@ -58,6 +58,10 @@ body {
   margin-right: 4px;
 }
 
+.icons {
+  display: flex;
+}
+
 /* unvisited link */
 a:link {
   color: #ffffff;
