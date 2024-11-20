@@ -60,11 +60,11 @@ body {
 
 .icon-tray {
   display: flex;
-  justify-content: space-between;
 }
 .icon-packet {
   display: flex;
   align-items: end;
+  margin-right: 10px;
 }
 
 /* unvisited link */
