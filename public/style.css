@@ -43,6 +43,10 @@ body {
   width: 150px;
 }
 
+.prfl-title {
+  display: flex;
+}
+
 /* unvisited link */
 a:link {
   color: #ffffff;
