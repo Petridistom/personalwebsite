@@ -16,6 +16,12 @@ body {
     margin-left: 4%;
     margin-right: 4%;
   }
+  .description {
+    display: none;
+  }
+  .web-description {
+    display: none;
+  }
 }
 
 .bodysector2 {
@@ -102,8 +108,8 @@ a:hover {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 1026px) {
+/* @media only screen and (max-width: 1026px) {
   .description {
       display: none;
   }
-}
+} */
