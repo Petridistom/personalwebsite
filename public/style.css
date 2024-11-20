@@ -24,6 +24,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 1026px) {
+  .mob-description {
+    display: none;
+  }
+}
+
 .bodysector2 {
   margin-left: 12%;
   margin-right: 12%;
