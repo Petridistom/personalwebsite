@@ -4,11 +4,11 @@
 
 body {
   background-color: #000000;
-  color: #ff0080;
 }
 .bodysector1 {
   margin-left: 12%;
   margin-right: 12%;
+  color: #ff0080;
 }
 
 @media only screen and (max-width: 1026px) {
@@ -16,6 +16,12 @@ body {
     margin-left: 4%;
     margin-right: 4%;
   }
+}
+
+.bodysector2 {
+  margin-left: 12%;
+  margin-right: 12%;
+  color: #ffffff;
 }
 
 .header {
@@ -64,6 +70,21 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #ff0080;
+}
+
+/* unvisited link */
+.bodysector2 a:link {
+  color: #ff0080;
+}
+
+/* visited link */
+.bodysector2 a:visited {
+  color: #ff0080;
+}
+
+/* mouse over link */
+.bodysector2 a:hover {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 1026px) {
