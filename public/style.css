@@ -58,7 +58,10 @@ body {
   margin-right: 4px;
 }
 
-.icons {
+.icon-tray {
+  display: flex;
+}
+.icon-packet {
   display: flex;
 }
 
