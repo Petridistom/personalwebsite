@@ -124,13 +124,13 @@ align-self: center;}
   
 .Bachelor {
   justify-self: start;
-  align-self: end;
+  align-self: start;
   grid-area: Bachelor;
 }
 
 .Masters {
   justify-self: start;
-  align-self: end;
+  align-self: start;
   grid-area: Masters;
 }
   
