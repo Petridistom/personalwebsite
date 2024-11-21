@@ -84,16 +84,17 @@ body {
   width: 25px;
 }
 
-.grid-exp {  
-  display: grid;
+.container {  display: grid;
   grid-template-columns: 0.7fr 1.8fr 0.5fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: center;
   grid-template-areas:
-  "title1 detail1 thumbnail1"
-  "title2 detail2 thumbnail2"
-  "title3 detail3 thumbnail3";
+    "title1 detail1 thumbnail1"
+    "title2 detail2 thumbnail2"
+    "title3 detail3 thumbnail3";
 }
 
 .title1 { grid-area: title1; }
@@ -110,10 +111,15 @@ body {
 
 .thumbnail1 { grid-area: thumbnail1; }
 
-.thumbnail2 { grid-area: thumbnail2; }
-
 .thumbnail3 { grid-area: thumbnail3; }
 
+.thumbnail2 { grid-area: thumbnail2; }
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
 
 /* unvisited link */
 a:link {
