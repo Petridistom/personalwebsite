@@ -33,6 +33,11 @@ body { background-color: #000000; }
   .detail{
     display: none;
   }
+  .Masters {
+    justify-self: end;
+    align-self: start;
+    grid-area: Masters;
+  }
 }
 
 @media only screen and (min-width: 1026px) {
