@@ -142,7 +142,30 @@ align-self: center;}
   align-self: start;
   grid-area: Masters;
 }
-  
+
+.container-3 {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: center;
+  grid-template-areas:
+    "Left-skills Right-skills";
+}
+
+.Left-skills {
+  justify-self: start;
+  align-self: end;
+  grid-area: Left-skills;
+}
+
+.Right-skills {
+  justify-self: start;
+  align-self: end;
+  grid-area: Right-skills;
+}
+
 
 a:link { color: #ffffff; }
 
