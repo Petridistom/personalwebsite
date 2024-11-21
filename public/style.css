@@ -99,17 +99,17 @@ body {
 
 .title1 { 
   grid-area: title1;
-  justify-self: center; 
+  justify-self: left; 
 }
 
 .title2 { 
   grid-area: title2; 
-  justify-self: center; 
+  justify-self: left; 
 }
 
 .title3 { 
   grid-area: title3; 
-  justify-self: center; 
+  justify-self: left; 
 }
 
 .detail1 { 
@@ -129,17 +129,17 @@ body {
 
 .thumbnail1 { 
   grid-area: thumbnail1; 
-  justify-self: center; 
+  justify-self: right; 
 }
 
 .thumbnail3 { 
   grid-area: thumbnail3; 
-  justify-self: center; 
+  justify-self: right; 
 }
 
 .thumbnail2 { 
   grid-area: thumbnail2; 
-  justify-self: center; 
+  justify-self: right; 
 }
 
 .square {
