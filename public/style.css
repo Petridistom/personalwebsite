@@ -111,12 +111,29 @@ align-self: center;}
   align-self: center;
   justify-self: right;}
 
-.square {
-  height: 50px;
-  width: 50px;
-  background-color: #555;
-  border-bottom-width: 1px;
+.container-2 {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: center;
+  grid-template-areas:
+  "Bachelor Masters";
 }
+  
+.Bachelor {
+  justify-self: start;
+  align-self: end;
+  grid-area: Bachelor;
+}
+
+.Masters {
+  justify-self: start;
+  align-self: end;
+  grid-area: Masters;
+}
+  
 
 a:link { color: #ffffff; }
 
