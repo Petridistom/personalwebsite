@@ -85,79 +85,22 @@ body {
 }
 
 .container {  display: grid;
-  grid-template-columns: 0.7fr 1.8fr 0.5fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 0.6fr 1.2fr 1.2fr;
+  grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   justify-content: stretch;
   align-content: center;
   grid-template-areas:
-    "title1 detail1 thumbnail1"
-    "title2 detail2 thumbnail2"
-    "title3 detail3 thumbnail3";
+    "title detail thumbnail";
 }
 
-.title1 { 
-  grid-area: title1;
-  justify-self: left; 
-  border-bottom: #ffffff;
-}
+.title { grid-area: title; }
 
-.title2 { 
-  grid-area: title2; 
-  justify-self: left; 
-  border-bottom: #ffffff;
+.detail { grid-area: detail; }
 
-}
+.thumbnail { grid-area: thumbnail; }
 
-.title3 { 
-  grid-area: title3; 
-  justify-self: left; 
-  border-bottom: #ffffff;
-  border-bottom-width: 1px;
-}
-
-.detail1 { 
-  grid-area: detail1; 
-  justify-self: left;
-  border-bottom: #ffffff;
-  border-bottom-width: 1px;
-}
-
-.detail2 { 
-  grid-area: detail2; 
-  justify-self: left;
-  border-bottom: #ffffff;
-  border-bottom-width: 1px;
-}
-
-.detail3 { 
-  grid-area: detail3; 
-  justify-self: left; 
-  border-bottom: #ffffff;
-  border-bottom-width: 1px;
-}
-
-.thumbnail1 { 
-  grid-area: thumbnail1; 
-  justify-self: right; 
-  border-bottom: #ffffff;
-  border-bottom-width: 1px;
-}
-
-.thumbnail3 { 
-  grid-area: thumbnail3; 
-  justify-self: right; 
-  border-bottom: #ffffff;
-  border-bottom-width: 1px;
-}
-
-.thumbnail2 { 
-  grid-area: thumbnail2; 
-  justify-self: right; 
-  border-bottom: #ffffff;
-  border-bottom-width: 1px;
-}
 
 .square {
   height: 50px;
