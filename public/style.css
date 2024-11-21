@@ -89,7 +89,7 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  justify-content: stretch;
+  justify-content: center;
   align-content: center;
   grid-template-areas:
     "title1 detail1 thumbnail1"
