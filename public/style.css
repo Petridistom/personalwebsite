@@ -1,6 +1,20 @@
 /* #000000 */
 /* #b3b3b3 */
 /* #ff0080 */
+body { background-color: #000000; }
+
+.bodysector1 {
+  margin-left: 12%;
+  margin-right: 12%;
+  color: #ff0080;
+}
+
+.bodysector2 {
+  margin-left: 12%;
+  margin-right: 12%;
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 1026px) {
   .bodysector1 {
     margin-left: 1%;
@@ -25,20 +39,6 @@
   .mob-description {
     display: none;
   }
-}
-
-body { background-color: #000000; }
-
-.bodysector1 {
-  margin-left: 12%;
-  margin-right: 12%;
-  color: #ff0080;
-}
-
-.bodysector2 {
-  margin-left: 12%;
-  margin-right: 12%;
-  color: #ffffff;
 }
 
 .break{ margin-bottom: 35px; }
