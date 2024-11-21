@@ -1,7 +1,12 @@
 /* #000000 */
 /* #b3b3b3 */
 /* #ff0080 */
-body { background-color: #000000; }
+body { 
+  background-color: #000000;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
 .bodysector1 {
   margin-left: 12%;
@@ -16,9 +21,7 @@ body { background-color: #000000; }
 }
 
 .merriweather-light {
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: normal;
+
 }
 
 @media only screen and (max-width: 1026px) {
