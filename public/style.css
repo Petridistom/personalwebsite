@@ -167,7 +167,7 @@ align-self: center;}
 .container-5 {  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
+  gap: 10px 0px;
   grid-auto-flow: row;
   justify-content: stretch;
   align-content: center;
