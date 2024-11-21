@@ -35,8 +35,9 @@ body { background-color: #000000; }
   }
   .Masters {
     justify-self: end;
-    align-self: start;
+    align-self: end;
     grid-area: Masters;
+    text-align: right;
   }
 }
 
