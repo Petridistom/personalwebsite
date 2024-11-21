@@ -41,10 +41,16 @@ body {
     grid-area: Masters;
     text-align: right;
   }
+  .container-4 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1026px) {
   .mob-description {
+    display: none;
+  }
+  .container-5 {
     display: none;
   }
 }
@@ -194,6 +200,37 @@ align-self: center;}
   justify-self: start;
   align-self: end;
   grid-area: ref3;
+}
+
+.container-5 {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: center;
+  grid-template-areas:
+    "mobref1"
+    "mobref2"
+    "mobref3";
+}
+
+.mobref1 {
+  justify-self: start;
+  align-self: end;
+  grid-area: mobref1;
+}
+
+.mobref2 {
+  justify-self: start;
+  align-self: end;
+  grid-area: mobref2;
+}
+
+.mobref3 {
+  justify-self: start;
+  align-self: end;
+  grid-area: mobref3;
 }
 
 
