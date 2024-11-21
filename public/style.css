@@ -48,6 +48,7 @@ body { background-color: #000000; }
 }
 
 .break{ margin-bottom: 35px; }
+.smallbreak{ margin-bottom: 15px; }
 
 .header {
   margin-left: 5px;
