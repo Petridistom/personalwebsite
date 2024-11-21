@@ -100,46 +100,59 @@ body {
 .title1 { 
   grid-area: title1;
   justify-self: left; 
+  border-bottom: #ffffff;
 }
 
 .title2 { 
   grid-area: title2; 
   justify-self: left; 
+  border-bottom: #ffffff;
+
 }
 
 .title3 { 
   grid-area: title3; 
   justify-self: left; 
+  border-bottom: #ffffff;
+
 }
 
 .detail1 { 
   grid-area: detail1; 
-  justify-self: center; 
+  justify-self: left;
+  border-bottom: #ffffff;
+
 }
 
 .detail2 { 
   grid-area: detail2; 
-  justify-self: center; 
+  justify-self: left;
+  border-bottom: #ffffff;
+
 }
 
 .detail3 { 
   grid-area: detail3; 
-  justify-self: center; 
+  justify-self: left; 
+  border-bottom: #ffffff;
 }
 
 .thumbnail1 { 
   grid-area: thumbnail1; 
   justify-self: right; 
+  border-bottom: #ffffff;
 }
 
 .thumbnail3 { 
   grid-area: thumbnail3; 
   justify-self: right; 
+  border-bottom: #ffffff;
 }
 
 .thumbnail2 { 
   grid-area: thumbnail2; 
   justify-self: right; 
+  border-bottom: #ffffff;
 }
 
 .square {
