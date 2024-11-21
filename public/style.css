@@ -53,6 +53,10 @@ body {
   color: #ff0080;
 }
 
+.subtitle {
+  text-decoration: dashed;
+}
+
 .line {
   border: 0;
   height: 1px;
