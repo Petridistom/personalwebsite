@@ -167,6 +167,34 @@ align-self: center;}
   grid-area: Right-skills;
 }
 
+.container-4 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: center;
+  grid-template-areas:
+    "ref1 ref2 ref3";
+}
+
+.ref1 {
+  justify-self: start;
+  align-self: end;
+  grid-area: ref1;
+}
+
+.ref2 {
+  justify-self: start;
+  align-self: end;
+  grid-area: ref2;
+}
+
+.ref3 {
+  justify-self: start;
+  align-self: end;
+  grid-area: ref3;
+}
 
 
 a:link { color: #ffffff; }
