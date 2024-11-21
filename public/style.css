@@ -3,8 +3,8 @@
 /* #ff0080 */
 @media only screen and (max-width: 1026px) {
   .bodysector1 {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 50%;
+    margin-right: 50%;
   }
   .description {
     display: none;
