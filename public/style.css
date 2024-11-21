@@ -152,7 +152,7 @@ align-self: center;}
   justify-content: stretch;
   align-content: center;
   grid-template-areas:
-  "Left-skills, Right-skills";
+  "Left-skills Right-skills";
 }
 
 .Left-skills {
