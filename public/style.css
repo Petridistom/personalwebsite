@@ -22,6 +22,9 @@ body {
   .web-description {
     display: none;
   }
+  .detail{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1026px) {
