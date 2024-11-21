@@ -114,51 +114,56 @@ body {
   grid-area: title3; 
   justify-self: left; 
   border-bottom: #ffffff;
-
+  border-bottom-width: 1px;
 }
 
 .detail1 { 
   grid-area: detail1; 
   justify-self: left;
   border-bottom: #ffffff;
-
+  border-bottom-width: 1px;
 }
 
 .detail2 { 
   grid-area: detail2; 
   justify-self: left;
   border-bottom: #ffffff;
-
+  border-bottom-width: 1px;
 }
 
 .detail3 { 
   grid-area: detail3; 
   justify-self: left; 
   border-bottom: #ffffff;
+  border-bottom-width: 1px;
 }
 
 .thumbnail1 { 
   grid-area: thumbnail1; 
   justify-self: right; 
   border-bottom: #ffffff;
+  border-bottom-width: 1px;
 }
 
 .thumbnail3 { 
   grid-area: thumbnail3; 
   justify-self: right; 
   border-bottom: #ffffff;
+  border-bottom-width: 1px;
 }
 
 .thumbnail2 { 
   grid-area: thumbnail2; 
   justify-self: right; 
   border-bottom: #ffffff;
+  border-bottom-width: 1px;
 }
 
 .square {
   height: 50px;
   width: 50px;
   background-color: #555;
+  border-bottom-width: 1px;
 }
 
 /* unvisited link */
