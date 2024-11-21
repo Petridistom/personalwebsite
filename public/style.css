@@ -95,11 +95,17 @@ body {
     "title detail thumbnail";
 }
 
-.title { grid-area: title; }
+.title { grid-area: title; 
+align-items: center;}
 
-.detail { grid-area: detail; }
+.detail { grid-area: detail; 
+  align-items: center;}
 
-.thumbnail { grid-area: thumbnail; }
+
+.thumbnail { grid-area: thumbnail; 
+  align-items: center;
+  justify-self: right;}
+
 
 
 .square {
