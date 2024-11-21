@@ -208,8 +208,6 @@ a:hover { color: #ff0080; }
 
 .bodysector2 a:hover { color: #ffffff; }
 
-.contact { text-decoration: none; }
-
 @media only screen and (max-width: 1026px) {
   .bodysector1 {
     margin-left: 1%;
