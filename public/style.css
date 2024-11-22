@@ -215,29 +215,30 @@ a:hover { color: #ff0080; }
     margin-left: 1%;
     margin-right: 1%;
   }
+
   .bodysector2 {
     margin-left: 1%;
     margin-right: 1%;
   }
-  .description {
-    display: none;
-  }
-  .web-description {
-    display: none;
-  }
-  .detail{
-    display: none;
-  }
+
   .Masters {
     justify-self: end;
     align-self: end;
     grid-area: Masters;
     text-align: right;
   }
-  .container-4 {
-    display: none;
-  }
-  .elevator_description { display: none; }
+
+  .description{display: none;}
+
+  .web-description{display: none;}
+  
+  .detail{display: none;}
+  
+  .container-4{display: none;}
+  
+  .elevator_description{display: none;}
+
+  .iframe{display: none;}
 }
 
 @media only screen and (min-width: 1026px) {
