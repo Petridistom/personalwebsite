@@ -239,6 +239,8 @@ a:hover { color: #ff0080; }
   .elevator_description{display: none;}
 
   .iframe{display: none;}
+
+  .elevator_game_link {display: none;}
 }
 
 @media only screen and (min-width: 1026px) {
