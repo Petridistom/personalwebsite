@@ -236,16 +236,16 @@ a:hover { color: #ff0080; }
   
   .container-4{display: none;}
   
-  .elevator_description{display: none;}
+  .work_description{display: none;}
 
   .iframe{display: none;}
 
-  .elevator_game_link {display: none;}
+  .project_link {display: none;}
 }
 
 @media only screen and (min-width: 1026px) {
   .mob-description {display: none;}
   .container-5 {display: none;}
-  .mob_elevator_description { display: none; }
+  .mob_work_description { display: none; }
   .mob_iframe { display: none; }
 }
