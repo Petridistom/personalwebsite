@@ -241,11 +241,8 @@ a:hover { color: #ff0080; }
 }
 
 @media only screen and (min-width: 1026px) {
-  .mob-description {
-    display: none;
-  }
-  .container-5 {
-    display: none;
-  }
-  .mob_elevator_description {display: none; }
+  .mob-description {display: none;}
+  .container-5 {display: none;}
+  .mob_elevator_description { display: none; }
+  .mob_iframe { display: none; }
 }
