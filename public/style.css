@@ -198,7 +198,7 @@ align-self: center;}
 .container-6 {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 50px 20px;
+  gap: 50px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "top left top mid top right"
@@ -260,10 +260,9 @@ align-self: center;}
   grid-area: bottom right;
 }
 
-
 .square {
-  height: 315px;
-  width: 560px;
+  height: 180px;
+  width: 320px;
   background-color: #555;
 }
 
