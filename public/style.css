@@ -200,6 +200,8 @@ align-self: center;}
   grid-template-rows: 1fr 1fr 1fr;
   gap: 50px 0px;
   grid-auto-flow: row;
+  justify-items: center;
+  align-items: center;
   grid-template-areas:
     "top left top mid top right"
     "mid left mid mid mid right"
@@ -259,7 +261,6 @@ align-self: center;}
   align-self: center;
   grid-area: bottom right;
 }
-
 
 .square {
   height: 250px;
