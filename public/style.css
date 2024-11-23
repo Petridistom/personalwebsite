@@ -201,21 +201,21 @@ align-self: center;}
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "topleft topmiddle top right"
-    "middleleft middlemiddle middleright"
-    "bottomleft bottommiddle bottomright";
+    "top left top mid top right"
+    "mid left mid mid mid right"
+    "bottom left bottom mid bottom right";
 }
 
-.topleft {
+.top left {
   justify-self: center;
   align-self: center;
-  grid-area: topleft;
+  grid-area: top left;
 }
 
-.topmiddle {
+.top mid {
   justify-self: center;
   align-self: center;
-  grid-area: topmiddle;
+  grid-area: top mid;
 }
 
 .top right {
@@ -224,41 +224,42 @@ align-self: center;}
   grid-area: top right;
 }
 
-.middleleft {
+.mid left {
   justify-self: center;
   align-self: center;
-  grid-area: middleleft;
+  grid-area: mid left;
 }
 
-.middlemiddle {
+.mid mid {
   justify-self: center;
   align-self: center;
-  grid-area: middlemiddle;
+  grid-area: mid mid;
 }
 
-.middleright {
+.mid right {
   justify-self: center;
   align-self: center;
-  grid-area: middleright;
+  grid-area: mid right;
 }
 
-.bottomleft {
+.bottom left {
   justify-self: center;
   align-self: center;
-  grid-area: bottomleft;
+  grid-area: bottom left;
 }
 
-.bottommiddle {
+.bottom mid {
   justify-self: center;
   align-self: center;
-  grid-area: bottommiddle;
+  grid-area: bottom mid;
 }
 
-.bottomright {
+.bottom right {
   justify-self: center;
   align-self: center;
-  grid-area: bottomright;
+  grid-area: bottom right;
 }
+
 
 .square {
   height: 50px;
