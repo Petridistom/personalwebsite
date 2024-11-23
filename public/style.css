@@ -260,11 +260,7 @@ align-self: center;}
   grid-area: bottom right;
 }
 
-.square {
-  height: 17%;
-  width: 17%;
-  background-color: #555;
-}
+.project_img {width: 17vw;}
 
 a:link { color: #ffffff; }
 
