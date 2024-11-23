@@ -195,8 +195,76 @@ align-self: center;}
   grid-area: mobref3;
 }
 
+.container-6 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "topleft topmiddle top right"
+    "middleleft middlemiddle middleright"
+    "bottomleft bottommiddle bottomright";
+}
 
+.topleft {
+  justify-self: center;
+  align-self: center;
+  grid-area: topleft;
+}
 
+.topmiddle {
+  justify-self: center;
+  align-self: center;
+  grid-area: topmiddle;
+}
+
+.top right {
+  justify-self: center;
+  align-self: center;
+  grid-area: top right;
+}
+
+.middleleft {
+  justify-self: center;
+  align-self: center;
+  grid-area: middleleft;
+}
+
+.middlemiddle {
+  justify-self: center;
+  align-self: center;
+  grid-area: middlemiddle;
+}
+
+.middleright {
+  justify-self: center;
+  align-self: center;
+  grid-area: middleright;
+}
+
+.bottomleft {
+  justify-self: center;
+  align-self: center;
+  grid-area: bottomleft;
+}
+
+.bottommiddle {
+  justify-self: center;
+  align-self: center;
+  grid-area: bottommiddle;
+}
+
+.bottomright {
+  justify-self: center;
+  align-self: center;
+  grid-area: bottomright;
+}
+
+.square {
+  height: 400px;
+  width: 400px;
+  background-color: #555;
+}
 
 a:link { color: #ffffff; }
 
