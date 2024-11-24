@@ -269,72 +269,72 @@ align-self: center;}
   justify-content: stretch;
   align-content: center;
   grid-template-areas:
-    "left 1 right 1"
-    "left 2 right 2"
-    "left 3 right 3"
-    "left 4 right 4"
-    "left 5 right 5";
+    "left-1 right-1"
+    "left-2 right-2"
+    "left-3 right-3"
+    "left-4 right-4"
+    "left-5 right-5";
 }
 
-/* .left 1 {
+.left-1 {
   justify-self: center;
   align-self: start;
-  grid-area: left 1;
+  grid-area: left-1;
 }
 
-.left 2 {
+.left-2 {
   justify-self: center;
   align-self: start;
-  grid-area: left 2;
+  grid-area: left-2;
 }
 
-.left 3 {
+.left-3 {
   justify-self: center;
   align-self: start;
-  grid-area: left 3;
+  grid-area: left-3;
 }
 
-.left 4 {
+.left-4 {
   justify-self: center;
   align-self: start;
-  grid-area: left 4;
+  grid-area: left-4;
 }
 
-.left 5 {
+.left-5 {
   justify-self: center;
   align-self: start;
-  grid-area: left 5;
+  grid-area: left-5;
 }
 
-.right 1 {
+.right-1 {
   justify-self: center;
   align-self: start;
-  grid-area: right 1;
+  grid-area: right-1;
 }
 
-.right 2 {
+.right-2 {
   justify-self: center;
   align-self: start;
-  grid-area: right 2;
+  grid-area: right-2;
 }
 
-.right 3 {
+.right-3 {
   justify-self: center;
   align-self: start;
-  grid-area: right 3;
+  grid-area: right-3;
 }
 
-.right 4 {
+.right-4 {
   justify-self: center;
   align-self: start;
-  grid-area: right 4;
+  grid-area: right-4;
 }
 
-.right 5 {
+.right-5 {
   justify-self: center;
   align-self: start;
-  grid-area: right 5;
-} */
+  grid-area: right-5;
+}
 
 
 .project_img {width: 25vw;}
