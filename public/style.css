@@ -276,7 +276,7 @@ align-self: center;}
     "left 5 right 5";
 }
 
-.left 1 {
+/* .left 1 {
   justify-self: center;
   align-self: start;
   grid-area: left 1;
@@ -334,7 +334,7 @@ align-self: center;}
   justify-self: center;
   align-self: start;
   grid-area: right 5;
-}
+} */
 
 
 .project_img {width: 25vw;}
