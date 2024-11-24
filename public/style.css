@@ -376,6 +376,10 @@ a:hover { color: #ff0080; }
 
   .project_img {width: 47vw;}
 
+  .grid-body{
+    margin-left: 0;
+    margin-right: 0;
+  }
   .container-6 {display: none;}
 
   .description{display: none;}
