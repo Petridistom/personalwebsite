@@ -276,61 +276,61 @@ align-self: center;}
     "left 5 right 5";
 }
 
-.left-1 {
+.left 1 {
   justify-self: center;
   align-self: start;
   grid-area: left 1;
 }
 
-.left-2 {
+.left 2 {
   justify-self: center;
   align-self: start;
   grid-area: left 2;
 }
 
-.left-3 {
+.left 3 {
   justify-self: center;
   align-self: start;
   grid-area: left 3;
 }
 
-.left-4 {
+.left 4 {
   justify-self: center;
   align-self: start;
   grid-area: left 4;
 }
 
-.left-5 {
+.left 5 {
   justify-self: center;
   align-self: start;
   grid-area: left 5;
 }
 
-.right-1 {
+.right 1 {
   justify-self: center;
   align-self: start;
   grid-area: right 1;
 }
 
-.right-2 {
+.right 2 {
   justify-self: center;
   align-self: start;
   grid-area: right 2;
 }
 
-.right-3 {
+.right 3 {
   justify-self: center;
   align-self: start;
   grid-area: right 3;
 }
 
-.right-4 {
+.right 4 {
   justify-self: center;
   align-self: start;
   grid-area: right 4;
 }
 
-.right-5 {
+.right 5 {
   justify-self: center;
   align-self: start;
   grid-area: right 5;
