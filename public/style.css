@@ -201,63 +201,63 @@ align-self: center;}
   gap: 10px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "top left top mid top right"
-    "mid left mid mid mid right"
-    "bottom left bottom mid bottom right";
+    "top-left top-mid top-right"
+    "mid-left mid-mid mid-right"
+    "bottom-left bottom-mid bottom-right";
 }
 
-.top left {
+.top-left {
   justify-self: center;
   align-self: center;
-  grid-area: top left;
+  grid-area: top-left;
 }
 
-.top mid {
+.top-mid {
   justify-self: center;
   align-self: center;
-  grid-area: top mid;
+  grid-area: top-mid;
 }
 
-.top right {
+.top-right {
   justify-self: center;
   align-self: center;
-  grid-area: top right;
+  grid-area: top-right;
 }
 
-.mid left {
+.mid-left {
   justify-self: center;
   align-self: center;
-  grid-area: mid left;
+  grid-area: mid-left;
 }
 
-.mid mid {
+.mid-mid {
   justify-self: center;
   align-self: center;
-  grid-area: mid mid;
+  grid-area: mid-mid;
 }
 
-.mid right {
+.mid-right {
   justify-self: center;
   align-self: center;
-  grid-area: mid right;
+  grid-area: mid-right;
 }
 
-.bottom left {
+.bottom-left {
   justify-self: center;
   align-self: center;
-  grid-area: bottom left;
+  grid-area: bottom-left;
 }
 
-.bottom mid {
+.bottom-mid {
   justify-self: center;
   align-self: center;
-  grid-area: bottom mid;
+  grid-area: bottom-mid;
 }
 
-.bottom right {
+.bottom-right {
   justify-self: center;
   align-self: center;
-  grid-area: bottom right;
+  grid-area: bottom-right;
 }
 
 .container-7 {  display: grid;
