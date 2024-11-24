@@ -196,7 +196,8 @@ align-self: center;}
 }
 
 .grid-body{
-  margin: 5% 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .container-6 {  display: grid;
