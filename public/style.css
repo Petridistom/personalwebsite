@@ -198,7 +198,7 @@ align-self: center;}
 .container-6 {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 50px 0px;
+  gap: 10px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "top left top mid top right"
