@@ -369,6 +369,8 @@ a:hover { color: #ff0080; }
     text-align: right;
   }
 
+  .project_img {width: 40vw;}
+
   .container-6 {display: none;}
 
   .description{display: none;}
