@@ -346,7 +346,7 @@ align-self: center;}
 
 .copimages {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .copimages img {width: 27vw}
 
