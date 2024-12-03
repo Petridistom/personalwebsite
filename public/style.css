@@ -407,6 +407,9 @@ a:hover { color: #ff0080; }
   .iframe{display: none;}
 
   .project_link {display: none;}
+
+  .copimagesdesktop {display: none;}
+
 }
 
 @media only screen and (min-width: 1026px) {
@@ -415,4 +418,5 @@ a:hover { color: #ff0080; }
   .container-7 {display: none;}
   .mob_work_description { display: none; }
   .mob_iframe { display: none; }
+  .copimagesmob{display: none}
 }
