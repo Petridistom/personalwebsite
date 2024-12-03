@@ -345,6 +345,7 @@ align-self: center;}
 .project_img {width: 25vw;}
 
 .copimages {display: flex;}
+.copimages img {width: 27vw}
 
 a:link { color: #ffffff; }
 
