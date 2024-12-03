@@ -352,7 +352,7 @@ align-self: center;}
 .copimagesmob{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
 }
 .copimagesmob img {width: 47vw;}
 
