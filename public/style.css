@@ -344,11 +344,17 @@ align-self: center;}
 
 .project_img {width: 25vw;}
 
-.copimages {
+.copimagesdesktop {
   display: flex;
   justify-content: space-around;
 }
-.copimages img {width: 27vw}
+.copimagesdesktop img {width: 27vw}
+.copimagesmob{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.copimagesmob img {width: 47vw;}
 
 a:link { color: #ffffff; }
 
