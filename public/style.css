@@ -358,6 +358,14 @@ align-self: center;}
 
 a:link { color: #ffffff; }
 
+.project-a a{
+  color: #ff0080;
+}
+
+.project-a a:hover{
+  color: #ffffff;
+}
+
 a:visited { color: #ffffff; }
 
 a:hover { color: #ff0080; }
