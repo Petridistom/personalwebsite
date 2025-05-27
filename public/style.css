@@ -441,4 +441,4 @@ a:hover { color: #e600ff; }
   height: 100%;  
 }
 
-.screenshot {max-width: 100%;}
+.screenshot img {max-width: 100%;}
