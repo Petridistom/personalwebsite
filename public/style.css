@@ -425,3 +425,6 @@ a:hover { color: #e600ff; }
   .mob_iframe { display: none; }
   .copimagesmob{display: none}
 }
+
+.youtube-video {width: 100%;}
+.screenshot {width: 100%;}
