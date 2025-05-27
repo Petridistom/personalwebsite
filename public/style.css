@@ -404,6 +404,11 @@ a:hover { color: #e600ff; }
   .web-description{display: none;}
   
   .detail{display: none;}
+
+  .grid-body {
+    margin-left: 0;
+    margin-right: 0;
+  }
   
   .container-4{display: none;}
   
