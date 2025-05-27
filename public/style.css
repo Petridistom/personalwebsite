@@ -198,6 +198,7 @@ align-self: center;}
 .grid-body{
   margin-left: 10%;
   margin-right: 10%;
+  color: #ffffff;
 }
 
 .container-6 {  display: grid;
@@ -396,10 +397,6 @@ a:hover { color: #e600ff; }
 
   .project_img {width: 47vw;}
 
-  .grid-body{
-    margin-left: 0;
-    margin-right: 0;
-  }
   .container-6 {display: none;}
 
   .description{display: none;}
